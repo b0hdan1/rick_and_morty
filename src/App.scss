@@ -1,0 +1,11 @@
+@import"~bootstrap/scss/bootstrap";
+
+body {
+  min-height: 101vh;
+}
+
+.App {
+  text-align: center;
+  background-image: url('../src/images/background-image.jpg');
+  min-height: 100vh;
+}

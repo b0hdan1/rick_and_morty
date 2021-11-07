@@ -1,0 +1,51 @@
+.character-item {
+  color: #fff;
+  list-style: none;
+}
+
+.card {
+  margin: 0 10px 40px 10px;
+  height: 260px;
+  width: 220px;
+  background: rgba(161,21,207, 0.2);
+}
+
+.card-list {
+  display: flex;
+  margin: 40px 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.character-name {
+  margin: 5px;
+}
+
+.character-gender {
+  margin: 0;
+  color: #ababab;
+}
+
+.card-image {
+  height: 140px;
+  width: 210px;
+}
+
+.additional-button {
+  bottom: 0;
+}
+
+.filter-fields {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.label {
+  display: block;
+  margin: 0 10px 5px 10px;
+
+  color: white;
+}
