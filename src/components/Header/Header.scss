@@ -2,10 +2,6 @@ header {
   background: #4f4d4d;
 }
 
-/* .header-title {
-  color: #000;
-} */
-
 .page-header {
   text-align: center;
 }
@@ -16,5 +12,9 @@ header {
 
 .header-link {
   margin: 0 15px;
-  color: #008B8B;
+  color: #008b8b;
+  
+  &:hover {
+    color: aqua;
+  }
 }

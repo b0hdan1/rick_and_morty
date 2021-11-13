@@ -1,12 +1,12 @@
-import React from 'react';
-import {Modal, Row, Col} from 'react-bootstrap';
+import React from "react";
+import { Modal, Row, Col } from "react-bootstrap";
 
 export const CharacterModal = ({ setShow, show, element }) => {
   return (
     <Modal show={show} onHide={setShow}>
       <Modal.Header closeButton>
         <Modal.Title>{element.name}</Modal.Title>
-      </Modal.Header >
+      </Modal.Header>
       <Modal.Body>
         <Row className="align-items-center">
           <Col lg="6">
@@ -20,11 +20,11 @@ export const CharacterModal = ({ setShow, show, element }) => {
           </Col>
           <Col lg="6">
             <div>
-              <img className="img-fluid" src={element.image} alt=""/>
+              <img className="img-fluid" src={element.image} alt="" />
             </div>
           </Col>
         </Row>
       </Modal.Body>
     </Modal>
-  )
-}
+  );
+};
