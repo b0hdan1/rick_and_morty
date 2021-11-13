@@ -3,8 +3,6 @@ import { CloseButton } from "react-bootstrap";
 import classNames from "classnames";
 
 export const MyWatchListTable = ({ items, setItems, setErrorMessage }) => {
-  console.log(items);
-
   const checkClick = (elID) => {
     setItems(
       items.map((el) => {
